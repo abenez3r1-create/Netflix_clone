@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.footer_outer_container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container li {
+  padding: 10px 0px;
+}
+.accounts ul {
+  display: flex;
+}
