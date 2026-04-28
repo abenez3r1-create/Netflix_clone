@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
 import insta from "../../assets/instagram_icon.png";
 import facebook from "../../assets/facebook_icon.png";
 import twitter from "../../assets/twitter_icon.png";
@@ -11,16 +12,16 @@ const Footer = () => {
         <div className="accounts">
           <ul>
             <li>
-              <img src={insta} alt="" width={20} />
+              <FaInstagram size={25} />
             </li>
             <li>
-              <img src={facebook} alt="" width={20} />
+              <FaFacebook size={25} />
             </li>
             <li>
-              <img src={twitter} alt="" width={20} />
+              <FaTwitter size={25} />
             </li>
             <li>
-              <img src={youtube} alt="" width={20} />
+              <FaYoutube size={25} />
             </li>
           </ul>
         </div>

@@ -5,6 +5,13 @@ import search from "../../assets/search_icon.svg";
 import bell from "../../assets/bell_icon.svg";
 import caret from "../../assets/caret_icon.svg";
 import profile from "../../assets/profile_img.png";
+import {
+  FaBell,
+  FaSearch,
+  FaShoppingCart,
+  FaUser,
+  FaCaretDown,
+} from "react-icons/fa";
 const Header = () => {
   return (
     <>
@@ -26,16 +33,16 @@ const Header = () => {
           <div className="header_right">
             <ul>
               <li>
-                <img src={search} alt="Search" />
+                <FaSearch />
               </li>
               <li>
-                <img src={bell} alt="Notification" />
+                <FaBell />
               </li>
               <li>
-                <img src={profile} alt="Profile" />
+                <FaUser />
               </li>
               <li>
-                <img src={caret} alt="Caret" />
+                <FaCaretDown />
               </li>
             </ul>
           </div>
