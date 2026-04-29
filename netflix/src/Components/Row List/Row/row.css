@@ -12,8 +12,10 @@ img {
   letter-spacing: 0;
   font-weight: 600;
   color: #e5e5e5;
+  margin-left: 20px;
 }
 .outer_row_poster {
+  margin-left: 10px;
   display: flex;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -23,6 +25,7 @@ img {
   width: 200px;
   height: auto;
 }
+
 .outer_row_poster::-webkit-scrollbar {
   display: none;
 }

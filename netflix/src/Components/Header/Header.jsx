@@ -30,16 +30,22 @@ const Header = () => {
           <div className="header_right">
             <ul>
               <li>
-                <FaSearch />
+                <FaSearch
+                  size={23}
+                  style={{ backgroundColor: "transparent" }}
+                />
               </li>
               <li>
-                <FaBell />
+                <FaBell size={23} style={{ backgroundColor: "transparent" }} />
               </li>
               <li>
-                <FaUser />
+                <FaUser size={23} style={{ backgroundColor: "transparent" }} />
               </li>
               <li>
-                <FaCaretDown />
+                <FaCaretDown
+                  size={23}
+                  style={{ backgroundColor: "transparent" }}
+                />
               </li>
             </ul>
           </div>
