@@ -1,10 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
-import insta from "../../assets/instagram_icon.png";
-import facebook from "../../assets/facebook_icon.png";
-import twitter from "../../assets/twitter_icon.png";
-import youtube from "../../assets/youtube_icon.png";
+
 const Footer = () => {
   return (
     <>

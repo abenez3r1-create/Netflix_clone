@@ -1,10 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "../../assets/logo.png";
-import search from "../../assets/search_icon.svg";
-import bell from "../../assets/bell_icon.svg";
-import caret from "../../assets/caret_icon.svg";
-import profile from "../../assets/profile_img.png";
+
 import {
   FaBell,
   FaSearch,
