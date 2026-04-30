@@ -19,4 +19,9 @@
 }
 .accounts ul {
   display: flex;
+  gap: 10px;
+}
+.accounts {
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
